@@ -16,3 +16,4 @@
 + `$ git push [repository_name] [branch_name]`  // 
 + `$ git branch -d hoge`  // ローカルブランチ削除
 + `$ git push :hoge`      // リモートブランチ削除
++ `$ git rm -rf --cached [name]`  // トラック対象から除く（.gitignoreをaddした後に無効にする場合）
