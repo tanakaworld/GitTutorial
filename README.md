@@ -19,3 +19,6 @@
 + `$ git rm -rf --cached [name]`  // トラック対象から除く（.gitignoreをaddした後に無効にする場合）
 + `$ git push origin [tag_name]` // tag の共有
 + `$ git push origin --tags` // ローカルリポのタグでリモートにないものすべてを転送
++ `$ git stash [save] [-m "comment"]` // 現在のワークツリーを一時的に保存する（uncommited changes だけど、checkout して後に commit したい場合など）
++ `$ git stash list`
++ `$ git stash pop [stash@{0}]` // 任意のスタッシュを復元
