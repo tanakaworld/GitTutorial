@@ -22,3 +22,5 @@
 + `$ git stash [save] [-m "comment"]` // 現在のワークツリーを一時的に保存する（uncommited changes だけど、checkout して後に commit したい場合など）
 + `$ git stash list`
 + `$ git stash pop [stash@{0}]` // 任意のスタッシュを復元
+
+## [Git-Flow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html "GitFlow")
