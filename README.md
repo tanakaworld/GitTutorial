@@ -17,3 +17,5 @@
 + `$ git branch -d hoge`  // ローカルブランチ削除
 + `$ git push :hoge`      // リモートブランチ削除
 + `$ git rm -rf --cached [name]`  // トラック対象から除く（.gitignoreをaddした後に無効にする場合）
++ `$ git push origin [tag_name]` // tag の共有
++ `$ git push origin --tags` // ローカルリポのタグでリモートにないものすべてを転送
