@@ -26,3 +26,8 @@
 + `$ git stash pop [stash@{0}]` // 任意のスタッシュを復元
 
 ## [Git-Flow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html "GitFlow")
+
+## Tips
+
+### .gitignore
++ [VisualStudioで.csprojがコンフリクトしないように](http://stackoverflow.com/questions/13479294/why-are-my-csproj-files-getting-messed-up-after-a-git-rebase)
