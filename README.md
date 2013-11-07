@@ -12,6 +12,7 @@
 + `$ git rm -rf --cached [name]`  // トラック対象から除く（.gitignoreをaddした後に無効にする場合）
 + `$ git checkout <branch_name>`  // ブランチの切り替え
 + `$ git checkout -b <branch_name>`  // 新規ブランチ作成とブランチ切り替え
++ `$ git checkout -b <local_branch_name> <remote_branch_name>`  // master以外のリモートブランチ取得
 + `$ git tag -a <tag_name> -m "comment"`  // タグの作成
 + `$ git fetch [repository_name]`  // 
 + `$ git merge [repository_name]`  //
