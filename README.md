@@ -31,3 +31,7 @@
 
 ### .gitignore
 + [VisualStudioで.csprojがコンフリクトしないように](http://stackoverflow.com/questions/13479294/why-are-my-csproj-files-getting-messed-up-after-a-git-rebase)
+
+### Alias
+
++ "git config --global alias.log-all ""log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'""
