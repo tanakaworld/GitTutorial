@@ -34,4 +34,12 @@
 
 ### Alias
 
-+ "git config --global alias.log-all ""log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'""
+以下のコマンドでエイリアスが作成できる
+
+`git config --global alias.<short-cut-command> "<normal-command>"`
+
+| Normal | ShortCut | Command Detail |
+|:-----------|------------:|:------------:|
+| branch -a     | br-a |    全ブランチ表示    |
+| commit -a |  | cm-a | コミット（Vimでコメントを書く）|
+| log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'| log-all | SourceTree |
