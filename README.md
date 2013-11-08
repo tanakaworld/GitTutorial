@@ -51,5 +51,6 @@
 |:-----------|------------:|:------------:|
 | branch -a     | br-a |    全ブランチ表示    |
 | commit -a | cm-a | コミット（Vimでコメントを書く）|
-| status | st | Status |
+| status | st | ステータス |
+| checkout | cko | チェックアウト |
 | log --graph --all --color --pretty='%x09%h %cn%x09%s %Cred%d%Creset'| log-all | SourceTree |
