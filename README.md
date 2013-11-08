@@ -25,6 +25,15 @@
 + `$ git stash list`
 + `$ git stash pop [stash@{0}]` // 任意のスタッシュを復元
 
+### Feature ブランチの内容を develop に統合する
++ 作業してた feature ブランチにいる
++ `$ git checkout debelop`
++ `$ git pull origin/develop`
++ `$ git git checkout feature/<feature-name>`
++ `$ git git rebase deveop`
++ `$ git push -f origin <feature-name>`
++ develop に対して pull request する
+
 ## [Git-Flow](http://danielkummer.github.io/git-flow-cheatsheet/index.ja_JP.html "GitFlow")
 
 ## Tips
