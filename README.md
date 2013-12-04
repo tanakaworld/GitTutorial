@@ -24,13 +24,20 @@
 + `$ git stash [save] [-m "comment"]` // 現在のワークツリーを一時的に保存する（uncommited changes だけど、checkout して後に commit したい場合など）
 + `$ git stash list`
 + `$ git stash pop [stash@{0}]` // 任意のスタッシュを復元
++ `$ git rebase -i [branch-name]~[commit number]` // コミットを統合したりする squash など
 
-### Feature ブランチの内容を develop に統合する
+
+## Cherry Pich
+
+### feature ブランチの内容を develop に統合する
 + 作業してた feature ブランチにいる
++ develop ブランチの内容を最新に更新する
 + `$ git checkout debelop`
 + `$ git pull origin/develop`
++ feature に戻って develop に rebase
 + `$ git git checkout feature/<feature-name>`
 + `$ git git rebase deveop`
++ Conflict することがある
 + `$ git push -f origin <feature-name>`
 + develop に対して pull request する
 
